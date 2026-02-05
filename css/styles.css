@@ -608,7 +608,7 @@ footer .copyright {
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
   body {
-    margin: 5px;
+    margin: 10px;
   }
 
   nav,
@@ -628,6 +628,9 @@ footer .copyright {
 
   .hero-section {
     grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .item-2 {
@@ -687,16 +690,25 @@ footer .copyright {
 
   .service-container {
     grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* SKILL SECTION */
   .skill-container {
     grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* EDUCATION SECTION */
   .educations-jobs-container {
     grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .jobs-box {
@@ -725,6 +737,8 @@ footer .copyright {
   .contact-container {
     grid-template-columns: 1fr;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   iframe {
@@ -743,22 +757,6 @@ footer .copyright {
   footer .copyright {
     font-size: 0.8rem;
   }
-}
-
-/* NAVBAR COLUMN */
-
-nav .menu {
-  font-size: 25px;
-  color: var(--primaryColor);
-  display: none;
-}
-
-.navbar-column {
-  display: none;
-}
-
-.slide {
-  margin-left: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -846,3 +844,4 @@ nav .menu {
     font-size: 20px;
   }
 }
+
