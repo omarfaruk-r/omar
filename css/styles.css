@@ -629,8 +629,8 @@ footer .copyright {
   .hero-section {
     grid-template-columns: 1fr;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .item-2 {
@@ -691,24 +691,29 @@ footer .copyright {
   .service-container {
     grid-template-columns: 1fr;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .service-container > div {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /* SKILL SECTION */
   .skill-container {
     grid-template-columns: 1fr;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /* EDUCATION SECTION */
   .educations-jobs-container {
     grid-template-columns: 1fr;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .jobs-box {
@@ -737,8 +742,13 @@ footer .copyright {
   .contact-container {
     grid-template-columns: 1fr;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contact-container > div {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   iframe {
@@ -757,6 +767,22 @@ footer .copyright {
   footer .copyright {
     font-size: 0.8rem;
   }
+}
+
+/* NAVBAR COLUMN */
+
+nav .menu {
+  font-size: 25px;
+  color: var(--primaryColor);
+  display: none;
+}
+
+.navbar-column {
+  display: none;
+}
+
+.slide {
+  margin-left: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -844,4 +870,5 @@ footer .copyright {
     font-size: 20px;
   }
 }
+
 
