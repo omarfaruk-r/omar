@@ -1692,8 +1692,8 @@ nav .menu {
   .skill-container {
     grid-template-columns: repeat(6, 1fr);
     max-width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /* EDUCATONS AND JOBS SECTION */
@@ -1824,8 +1824,8 @@ nav .menu {
   .skill-container {
     grid-template-columns: repeat(6, 1fr);
     max-width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /* EDUCATIONS AND JOBS SECTION */
@@ -1872,4 +1872,5 @@ nav .menu {
     font-size: 3rem;
   }
 }
+
 
