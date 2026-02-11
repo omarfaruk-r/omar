@@ -1533,6 +1533,7 @@ nav .menu {
   }
 
   .navbar-column {
+    overflow-x: scroll;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1871,3 +1872,4 @@ nav .menu {
     font-size: 3rem;
   }
 }
+
