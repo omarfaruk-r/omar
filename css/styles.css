@@ -1723,6 +1723,10 @@ nav .menu {
     left: -42px;
   }
 
+  .inner-items {
+    flex-direction: row;
+  }
+
   /* CONTACT SECTION */
 
   .contact-container {
@@ -1855,6 +1859,10 @@ nav .menu {
     left: -42px;
   }
 
+  .inner-items {
+    flex-direction: row;
+  }
+
   /* CONTACT SECTION */
 
   .contact-container {
@@ -1872,5 +1880,6 @@ nav .menu {
     font-size: 3rem;
   }
 }
+
 
 
