@@ -1623,7 +1623,7 @@ nav .menu {
   header,
   main,
   footer {
-    max-width: 92vw;
+    max-width: 1140px;
     margin: 0 auto;
   }
 
@@ -1696,7 +1696,7 @@ nav .menu {
     margin-right: 0;
   }
 
-  /* EDUCATONS AND JOBS SECTION */
+  /* EDUCATIONS AND JOBS SECTION */
 
   .educations-jobs-container {
     grid-template-columns: 1fr 1fr;
@@ -1884,6 +1884,7 @@ nav .menu {
     font-size: 3rem;
   }
 }
+
 
 
 
