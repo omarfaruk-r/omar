@@ -1763,6 +1763,10 @@ nav .menu {
     margin: 0 auto;
   }
 
+  nav ul li:first-child {
+    margin-left: 240px;
+  }
+
   /* HERO SECTION */
 
   .hero-section {
@@ -1880,6 +1884,7 @@ nav .menu {
     font-size: 3rem;
   }
 }
+
 
 
 
